@@ -1,3 +1,5 @@
+# Generierung von synthetischen Dokumenten für definierte Testbedingungen
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pickle
