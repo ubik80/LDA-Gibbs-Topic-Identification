@@ -1,5 +1,7 @@
 # coding: utf8
 
+# Auswertung der Ergebnisse von gibbsSampler.py und Visualisierung in html
+
 import numpy as np
 from sklearn.preprocessing import normalize
 from sklearn.metrics.pairwise import cosine_similarity
