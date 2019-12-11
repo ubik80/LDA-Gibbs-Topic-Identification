@@ -1,5 +1,7 @@
 # coding: utf8
 
+# Vorverarbeitung der Roh-Daten aus der Simple English Wikipedia (raw.xml)
+
 import xml.etree.ElementTree as et
 import gensim.parsing.preprocessing as gs
 import re
