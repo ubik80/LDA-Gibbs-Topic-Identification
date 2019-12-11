@@ -1,5 +1,7 @@
 # coding: utf8
 
+# Gibbs-Sampler, in LDAGibbsTopicIdentification.pdf beschrieben
+
 import numpy as np
 import matplotlib.pyplot as plt
 import multiprocessing as mp
@@ -40,6 +42,7 @@ for d in Docs:
     iDocs.append(id)
 iDocs=np.array(iDocs)
 
+# Eigentlicher Samplingschritt
 def gibsSampling(seed,K,iDocs,Vocs,wordIdx,outputTetas,outputPhis):
     np.random.seed(seed)
     # Parameter:
